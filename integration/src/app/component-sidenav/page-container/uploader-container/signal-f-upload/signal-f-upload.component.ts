@@ -31,7 +31,7 @@ export class SignalFUploadComponent extends AutoDestory implements OnInit {
 
 
   ngOnInit() {
-    this._ps.setTitle('Signal File Uploader');
+    this._ps.setTitle('Single File Uploader');
   }
 
   // non-multiple, return File
